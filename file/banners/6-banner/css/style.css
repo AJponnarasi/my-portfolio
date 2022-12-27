@@ -1,0 +1,163 @@
+.bg img {
+	max-width: 100%;
+	height: 257px;
+	width: 306px;
+	z-index: 1;
+}
+
+.bg2 {
+	max-width: 100%;
+	height: 257px;
+	z-index: 0;
+	opacity: 0;
+	top: 0px;
+	position: absolute;
+	width: 274%;
+}
+
+.slide1 {
+	height: 250px;
+	width: 301px;
+	position: relative;
+	overflow: hidden;
+	background-image: url(https://i.ibb.co/5R9WjPy/bg.jpg);
+	opacity: 1;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.slide1 p,
+span {
+	color: #fff;
+	font-size: 9px;
+	position: absolute;
+	bottom: -6px;
+	left: 12px;
+	font-weight: bold;
+	text-align: center;
+	opacity: 0;
+	font-family: arial;
+}
+
+h3 {
+	color: #fff;
+	position: absolute;
+	bottom: 24px;
+	left: 10px;
+	font-size: 21px;
+	opacity: 0;
+	text-align: center;
+	font-weight: 900;
+}
+
+.slide2 {
+	background: linear-gradient(45deg, #5f4d4dfa, #e4131c);
+	height: 257px;
+	width: 306px;
+	overflow: hidden;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+}
+
+.leftside {
+	background-image: url(../images/logo.svg);
+	transform: rotate(-10deg);
+	width: 43%;
+	top: -21px;
+	left: -12px;
+	position: absolute;
+	background-repeat: no-repeat;
+	height: 206px;
+	background-position: top;
+	opacity: 0;
+}
+
+.center {
+	background-image: url(https://i.ibb.co/nk0SpjF/center.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 70px;
+	left: 80px;
+	width: 47%;
+	height: 30%;
+	background-size: 142px;
+	opacity: 0;
+}
+
+.right {
+	background-image: url(../images/tv.svg);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 4px;
+	left: 244px;
+	width: 18%;
+	height: 100%;
+	opacity: 0;
+}
+
+.btn_animation {
+	padding: 10px 12px;
+	background-color: #19d439;
+	position: absolute;
+	background-color: transparent;
+	top: 153px;
+	left: 50%;
+	opacity: 0;
+	border-radius: 6px;
+	transform: translateX(-50%);
+}
+
+.box {
+	background-color: #19d439;
+	text-align: center;
+	color: #fff;
+	border-radius: 4px;
+	border: none;
+	width: 180px;
+	padding: 0;
+	line-height: 32px;
+	font-weight: 900;
+	font-size: 18px;
+}
+
+.box:hover {
+	background-color: #2bff4f;
+}
+
+.slide2 p {
+	color: #fff;
+	font-size: 10px;
+	position: absolute;
+	bottom: -5px;
+	left: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.bgimg {
+	animation: startss 5.5s forwards;
+}
+
+.text1-ani {
+	animation: zoomin 5s forwards;
+}
+
+.text2-ani {
+	animation: showw 0.5s forwards;
+}
+
+.leftside-ani {
+	animation: zoomin2 0.5s forwards;
+}
+
+.box-ani {
+	animation: boxani 0.9s infinite;
+}
+
+.centerani {
+	animation: starts 1s forwards;
+}
+
+.rightani {
+	animation: zoomout 0.5s forwards;
+}

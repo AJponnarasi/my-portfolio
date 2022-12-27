@@ -1,0 +1,190 @@
+@media (min-width: 576px){
+.container {
+    max-width: 540px;
+}
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+  .banner .title {
+    font-size: 40px;
+  }
+  .banner .role {
+    font-size: 50px;
+    width: 523px;
+    margin: 45px 0px;
+  }
+  .banner .intro {
+    transform: translateY(230px);
+  }
+  .services .service-1 {
+    margin: 15px;
+  }
+  .skills-bg .skill {
+    margin: 10px;
+  }
+  .education .edu {
+    margin: 0 4px;
+  }
+  .education h3::after{
+    left: 36%;
+  }
+  .edu:hover.edu h3::after{
+    width: 57px;
+  }
+  .contact-bg .contact-form,
+  .contact-bg .address {
+    margin: 0 5px 100px;
+  }
+  .contact-bg .address {
+    padding: 48px 30px 91px 30px;
+  }
+  .portfolio .banner1{
+    display: none;
+  }
+  .portfolio .banner2 {
+    width: 88%;
+  }
+  #name {
+    margin-right: 34px;
+  }
+  .portfolio .banner6 iframe {
+    width: 100%;
+    height: 268px
+  }
+  .footer .arrow {
+    left: 49%;
+  }
+  .ctn-preloader .animation-preloader .spinner {
+    height: 8em;
+    width: 8em;
+  }
+  .ctn-preloader .animation-preloader .txt-loading {
+    font: bold 3.5em 'Montserrat', sans-serif;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  .mylogo{
+    padding:18px 50px;
+  }
+  .clip-section {
+    -webkit-clip-path: polygon(72% 0, 100% 0, 100% 88%, 28% 100%, 0 88%, 0 0);
+  }
+  .clip-both {
+    -webkit-clip-path: polygon(72% 0, 100% 12%, 100% 88%, 28% 100%, 0 88%, 0 12%);
+  }
+  .clip-top {
+    -webkit-clip-path: polygon(72% 0px, 100% 12%, 100% 100%, 72% 100%, 0% 100%, 0 12%);
+  }
+  .banner .title {
+    font-size: 56px;
+    line-height: 66px;
+  }
+  .about .mypic {
+    width: 450px;
+  }
+  h2 {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 400;
+  }
+  .about .content {
+    padding-top: 170px;
+  }
+  h2 {
+    font-size: 42px;
+  }
+  .skills-bg,
+  .counter-bg {
+    padding: 200px 0;
+  }
+  .skills-bg .skill p {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .education {
+    padding: 100px 29px;
+  }
+  .education .edu {
+    margin: 0 25px;
+  }
+  .education h3::after {
+    left: 39%;
+}
+.edu:hover.edu h3::after{
+    width: 39%;
+  }
+  .counter-1 i {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .counter-1 h3 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+  .counter-1 p {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .portfolio {
+    padding: 111px 00px;
+  }
+  .portfolio .banner2 {
+    width: 66%;
+  }
+  .contact-bg .contact {
+    padding: 200px 25px;
+  }
+  .contact-bg .address ul li {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .contact-bg .address {
+    padding: 38px 30px;
+  }
+  #name {
+    margin-right: 40px;
+  }
+  .skills-bg .skill .score {
+    height: 20px;
+  }
+  .fill-score {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+  .head h2 {
+    padding-top: 100px;
+  }
+  .portfolio .banner1, 
+  .portfolio .banner2 {
+    width: 83%;
+    display: block;
+  }
+   .education h3::after {
+    left: 41%;
+}
+.edu:hover.edu h3::after{
+    width: 80px;
+  }
+  .contact-bg .contact-form {
+    margin: 15px;
+  }
+  .contact-bg .address {
+    margin: 15px;
+  }
+  #name {
+    margin-right: 48px;
+  }
+}

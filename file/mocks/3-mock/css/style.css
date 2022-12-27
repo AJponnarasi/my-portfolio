@@ -1,0 +1,560 @@
+.clear {
+	clear: both;
+}
+
+.container {
+	width: 1150px;
+	margin: 0 auto;
+}
+
+body {
+	background-color: #000;
+	color: #efefef;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/*header style*/
+
+header {
+	margin: 34px 0px;
+}
+
+.head .logo {
+	float: left;
+}
+
+.logo a {
+	background-image: url(https://i.ibb.co/L92CQST/logo.png);
+	display: block;
+	width: 139px;
+	height: 24px;
+	background-position: 0px -22px;
+	transition: all 0.2s;
+	margin-top: 24px;
+}
+
+.logo a:hover {
+	background-position: 0px 0px;
+}
+
+.nav ul li a:hover {
+	color: #11cc9e;
+}
+
+header .nav {
+	float: right;
+}
+
+header .nav ul {
+	float: left;
+	width: 100%;
+}
+
+.nav ul li {
+	float: left;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+	padding: 14px;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+
+/*banner style*/
+
+.Banner {
+	background-color: #000000;
+}
+
+.Banner-content {
+	float: left;
+	width: 815px;
+	font-size: 24px;
+	margin-top: 20px;
+}
+
+.Banner-content h1 {
+	margin-top: 54px;
+	line-height: 1.5;
+	font-size: 57px;
+	font-weight: 700;
+}
+
+.Banner-content h1 span {
+	color: #4452fb;
+}
+
+.Banner-content p {
+	line-height: 38px;
+	font-size: 24px;
+	margin-bottom: 54px;
+	max-width: 491px;
+}
+
+.Banner .pic7 {
+	background-image: url(https://i.ibb.co/CwXbDxb/icon-Arrowdown.png);
+	background-position: 27% 50%;
+	background-repeat: no-repeat;
+}
+
+.Banner-content a {
+	font-weight: 900;
+	text-decoration: none;
+	color: #fff;
+	font-size: 24px;
+}
+
+.Banner-image {
+	float: right;
+	width: 335px;
+}
+
+.Banner-image img {
+	max-width: 100%;
+}
+
+
+/*portfolios*/
+
+.portfolios {
+	padding-top: 252px;
+}
+
+.portfolio {
+	padding-bottom: 100px;
+}
+
+.portfolio .text-content {
+	margin-bottom: 60px;
+}
+
+.portfolio .text-content .des {
+	margin-bottom: 50px;
+}
+
+.portfolio .text-content p {
+	font-size: 24px;
+	line-height: 1.5;
+	max-width: 500px;
+	margin-bottom: 50px;
+}
+
+.text-content .pic {
+	background-image: url(https://i.ibb.co/ws5B2n2/arrow-Fanbytesred.png);
+	background-position: 11% 50%;
+	background-repeat: no-repeat;
+}
+
+.text-content .pic2 {
+	background-image: url(https://i.ibb.co/mcLwPvr/arrow-montane-ventures.png);
+	background-position: 11% 50%;
+	background-repeat: no-repeat;
+}
+
+.text-content .pic3 {
+	background-image: url(https://i.ibb.co/71GtHRw/arrow-greenride.png);
+	background-position: 22% 50%;
+	background-repeat: no-repeat;
+}
+
+.text-content .pic4 {
+	background-image: url(https://i.ibb.co/Th5d46y/arrow-byte.png);
+	background-position: 11% 50%;
+	background-repeat: no-repeat;
+}
+
+.text-content .pic5 {
+	background-image: url(https://i.ibb.co/PwTG6YX/arrow-burt.png);
+	background-position: 28% 50%;
+	background-repeat: no-repeat;
+}
+
+.text-content .pic6 {
+	background-image: url(https://i.ibb.co/cbjJKD3/arrow-blurredpixel.png);
+	background-position: 11% 50%;
+	background-repeat: no-repeat;
+}
+
+.portfolio .text-content .lead {
+	font-size: 45px;
+	line-height: 65px;
+	margin-bottom: 30px;
+	max-width: 909px;
+}
+
+.portfolio .text-content h2 {
+	font-size: 33px;
+}
+
+.portfolio .text-content .call-to-action a {
+	font-size: 24px;
+	text-decoration: none;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+
+.portfolio .preview {
+	margin-bottom: 50px;
+	padding-top: 78px;
+}
+
+.portfolio .left-img {
+	float: left;
+	width: 47%;
+}
+
+.portfolio .r-img {
+	float: right;
+	width: 47%;
+	margin-top: 80px;
+}
+
+.portfolio .l-content {
+	float: left;
+	width: 44%;
+	padding-top: 120px;
+}
+
+.portfolio .r-content {
+	float: right;
+	width: 45%;
+	margin-top: 30px;
+}
+
+.portfolio .r-content .lead {
+	width: 500px
+}
+
+.portfolio .l-content .des .y {
+	max-width: 511px;
+}
+
+.portfolio .l-content .yy {
+	max-width: 511px;
+}
+
+.portfolio .r-content .des .x {
+	max-width: 100%;
+}
+
+.portfolio .preview img {
+	max-width: 100%;
+}
+
+.portfolio.testimonial {
+	max-width: 620px;
+	margin: 0 auto;
+}
+
+.portfolio .testimonial .quote {
+	font-size: 155px;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 0px;
+	font-weight: 600;
+}
+
+.portfolio .testimonial .testimony {
+	font-size: 24px;
+	line-height: 38px;
+	margin: 0px auto 36px auto;
+	width: 717px;
+	text-align: center;
+}
+
+.portfolio .testimonial .author-info {}
+
+.portfolio .testimonial .a-image {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.portfolio .testimonial .a-image img {
+	max-width: 100%;
+}
+
+.portfolio .testimonial h3,
+.portfolio .testimonial h4 {
+	color: #ccc;
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.portfolio .testimonial h4 {
+	font-size: 17px;
+	font-weight: 400;
+}
+
+.portfolio .testimonial h4 span {}
+
+.part-1 .port-color {
+	color: #ff4e00;
+}
+
+.part-2 .port-color {
+	color: #f49831;
+}
+
+.part-3 .port-color {
+	color: #53b049;
+}
+
+.part-4 .port-color {
+	color: #ed462f;
+}
+
+.part-5 .port-color {
+	color: #b953ff;
+	;
+}
+
+.part-6 .port-color {
+	color: #3A60FB;
+}
+
+.service {
+	color: white;
+	padding-bottom: 40px;
+}
+
+.service h1 {
+	font-size: 47px;
+	font-weight: 900;
+	line-height: 70px;
+}
+
+.service .service-1 {
+	padding-bottom: 100px;
+}
+
+.service .service-1 h2 {
+	font-weight: 700;
+	font-size: 33px;
+	color: #11cc9e;
+}
+
+.service .subhead {
+	font-size: 45px;
+	max-width: 747px;
+	line-height: 65px;
+	font-weight: 300;
+	margin-bottom: 0px;
+}
+
+.service .ser-2 {
+	margin-bottom: 30px;
+}
+
+.service p {
+	font-size: 24px;
+	line-height: 1.5;
+	max-width: 506px;
+	padding-bottom: 15px;
+}
+
+.service .left {
+	float: left;
+	width: 749px;
+}
+
+.service .right {
+	float: right;
+	width: 380px;
+	margin-top: 125px;
+}
+
+.service .bulltes-1 {
+	float: left;
+}
+
+.service .bullet {
+	background-image: url(https://i.ibb.co/XsJLVdp/bullet1.png);
+	background-repeat: no-repeat;
+	height: 17px;
+	background-position: 0 50%;
+}
+
+.service .bullets .text {
+	font-size: 18px;
+	padding-left: 30px;
+	margin: 10px auto;
+	font-weight: 300;
+	font-family: sans-serif;
+}
+
+.service .bullets-1 li {
+	float: left;
+	width: 258px;
+	list-style: none;
+	padding-top: 13px;
+}
+
+.service .bullets-1 ul {
+	width: 600px;
+}
+
+.service .bullets-2 ul {
+	width: 600px;
+}
+
+.service .bullets-2 li {
+	float: left;
+	width: 221px;
+	list-style: none;
+	padding-top: 10px;
+}
+
+.service .service-2 {
+	padding-top: 100px;
+}
+
+.service .service-2 h2 {
+	font-size: 33px;
+	color: #4452fb;
+}
+
+.service {
+	padding-bottom: 30px;
+}
+
+.service .bull {
+	background-image: url(https://i.ibb.co/hdBcgnx/bullet2.png);
+	background-repeat: no-repeat;
+	height: 17px;
+	background-position: 0 50%;
+}
+
+.last h1 {
+	font-size: 47px;
+	width: 755px;
+	line-height: 1.5;
+	font-weight: 700;
+}
+
+.last {
+	padding-bottom: 80px;
+	padding-top: 25px;
+}
+
+.last p {
+	font-size: 24px;
+	max-width: 44%;
+	padding-bottom: 40px;
+}
+
+.form .name,
+.form .fname,
+.form .email,
+.form .msg {
+	width: 258px;
+	height: 56px;
+	margin-bottom: 30px;
+	border: none;
+	background-color: #333;
+	border-radius: 5px;
+	padding-left: 30px;
+	display: block;
+	float: left;
+	color: #fff;
+}
+
+.form .email,
+.form .msg {
+	width: 574px;
+	color: #fff;
+}
+
+.form .name {
+	margin-left: 28px;
+}
+
+.form button {
+	font-size: 24px;
+	text-decoration: none;
+	color: #fff;
+	background-color: #000;
+	border: none;
+	font-weight: 900;
+}
+
+.form .fname::placeholder,
+.form .name::placeholder,
+.form .email::placeholder,
+.form .msg::placeholder {
+	font-size: 15px;
+	color: #fff;
+}
+
+#msg {
+	padding-top: 20px;
+	height: 100px;
+	font-size: 15px;
+}
+
+.form .pic8:hover,
+.text-content .pic6:hover,
+.text-content .pic4:hover,
+.text-content .pic2:hover,
+.text-content .pic:hover {
+	background-position: 12% 50%;
+}
+
+.text-content .pic5:hover {
+	background-position: 29% 50%;
+}
+
+.text-content .pic3:hover {
+	background-position: 23% 50%;
+}
+
+.form .pic8 {
+	background-image: url(https://i.ibb.co/jyfpVBM/arrow-Right.png);
+	background-position: 11% 50%;
+	background-repeat: no-repeat;
+}
+
+.final h2 {
+	font-size: 47px;
+	max-width: 85%;
+	margin-bottom: 100px;
+	line-height: 1.5;
+}
+
+.final h2 a {
+	color: #11cc9e;
+	text-decoration: none;
+}
+
+.final h2 a:hover {
+	border-bottom: 4px solid #11cc9e;
+}
+
+.logo {
+	float: left;
+	width: 50%;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.final-1 .rightside {
+	float: right;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.final-1 .rightside a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.final-2 p,
+.final-1 p {
+	font-size: 15px;
+	font-weight: 600;
+}

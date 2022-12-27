@@ -1,0 +1,28 @@
+.container{
+		margin:auto;
+		width: 600px;
+}
+td{
+	width: 205px;
+	margin-bottom: 20px;
+	float: left;
+	color: #000;
+	font-size: 20px;
+	font-weight: 700;
+	font-style: italic;
+}
+h1{
+	text-align: center;
+    color: #333;
+    font-style: italic;
+    font-size: 50px;
+    text-shadow: 2px 4px 1px #5a5a5a;
+}
+.brower{
+	box-shadow: 2px 4px 10px #333;
+	padding: 50px 20px;
+	background-image: url(https://i.ibb.co/hFpr2GP/water-1330252-340.jpg);
+	color: #fff;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

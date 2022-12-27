@@ -1,0 +1,170 @@
+
+.video_player {
+    overflow: hidden;
+    position: relative;
+    height: 500px;
+    width: 700px;
+}
+
+.video {
+    position: relative;
+    height: 396px;
+}
+
+button {
+    border: none;
+    background-color: Transparent;
+    height: 30px;
+    width: 30px;
+}
+
+.fa {
+    color: #fff;
+}
+
+.play {
+    position: absolute;
+    bottom: 53px;
+    left: 18px;
+}
+
+.fa-volume-up {
+    position: absolute;
+    bottom: 60px;
+    left: 59px;
+}
+.fa-volume-off {
+    position: absolute;
+    bottom: 60px;
+    left: 59px;
+}
+
+.slider1 {
+    position: absolute;
+    bottom: 64px;
+    left: 80px;
+}
+
+.backward {
+    position: absolute;
+    bottom: 53px;
+    left: 210px;
+}
+
+.forward {
+    position: absolute;
+    bottom: 53px;
+    left: 240px;
+}
+
+.full-screen {
+    position: absolute;
+    right: 5px;
+    bottom: 53px;
+}
+.replay{
+    position: absolute;
+    right: 40px;
+    bottom: 53px;
+}
+
+i:hover {
+    color: #999;
+}
+
+.video_player button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    transition: 0.2s all linear;
+}
+.slider1 {
+-webkit-appearance: none;
+height: 5px;
+border-radius: 2px;
+background: #d3d3d3;
+outline: none;
+opacity: 0.7;
+-webkit-transition: .2s;
+transition: opacity .2s;
+}
+.slider1:hover {
+opacity: 1;
+}
+.slider1::-webkit-slider-thumb {
+-webkit-appearance: none;
+appearance: none;
+width: 15px;
+height: 15px;
+border-radius: 50%;
+background: rgb(47,173,230);
+cursor: pointer;
+}
+.slider1::-moz-range-thumb {
+width: 25px;
+height: 25px;
+border-radius: 50%;
+background: rgb(47,173,230);
+cursor: pointer;
+}
+.vol_slider::-webkit-vol_slider-thumb {
+-webkit-appearance: none;
+appearance: none;
+width: 15px;
+height: 15px;
+border-radius: 50%;
+background: rgb(47,173,230);
+cursor: pointer;
+}
+.progress {
+    -webkit-appearance: none;
+    background: transparent;
+    position: absolute;
+    bottom: 65px;
+    left: 268px;
+    cursor: pointer;
+    width: 350px;
+    height: 6px;
+    border-radius: 5px;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.progress:hover {
+    opacity: 1;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 21px;
+    left: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 85px;
+}
+
+.duration {
+    position: absolute;
+    bottom: 35px;
+    color: #fff;
+}
+
+#curtime {
+    position: absolute;
+    left: 266px;
+    bottom:4px;
+}
+
+#slash {
+    position: absolute;
+    left: 305px;
+    bottom:4px;
+}
+
+#dur {
+    position: absolute;
+    left: 313px;
+    color: #fff;
+    bottom:4px;
+}

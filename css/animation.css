@@ -1,0 +1,64 @@
+@keyframes show {
+	0% {
+		right: -242px;
+	}
+	100% {
+		right: 0;
+	}
+}
+
+@keyframes hide {
+	0% {
+		right: 0x;
+	}
+	100% {
+		right: -242px;
+	}
+}
+
+@keyframes fill-bar1 {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 85%;
+	}
+}
+
+@keyframes fill-bar2 {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 80%;
+	}
+}
+
+@keyframes fill-bar3 {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 50%;
+	}
+}
+
+@keyframes letters-loading {
+	0%,
+	75%,
+	100% {
+		opacity: 0;
+		transform: rotateY(-90deg);
+	}
+	25%,
+	50% {
+		opacity: 1;
+		transform: rotateY(0deg);
+	}
+}
+
+@keyframes spinner {
+	to {
+		transform: rotateZ(360deg);
+	}
+}

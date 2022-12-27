@@ -1,0 +1,631 @@
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+}
+
+.section1 {
+    height: 950px;
+}
+
+.section-1 .section1-1 .logo {
+    padding-top: 26px;
+    float: left;
+    width: 600px;
+}
+
+.section-1 .section1-3 {
+    margin-top: 91px;
+}
+
+.section-1 .section1-3 .date {
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 3px solid #e70159;
+    color: #391d81;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.section-1 .section1-3 .date h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.section-1 .section1-3 .date h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.section-1 .section1-3 .date p {
+    font-size: 24px;
+}
+
+.section-1 .section1-3 .text h4 {
+    color: #fe3698;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+.section-1 .section1-3 .text {
+    margin-top: 80px;
+}
+
+.section-1 .section1-3 .text h2 {
+    color: #3d1d82;
+    font-size: 70px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    width: 500px;
+    padding-top: 18px;
+}
+
+.section-1 .section1-3 .text-2 {
+    padding: 129px 0px 29px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3b1d82;
+}
+
+.section-1 .section1-3 .text-2 span {
+    color: #6e5a9f;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.section-1 .section1-2 {
+    float: right;
+    width: 587px;
+}
+
+.section-1 {
+    background-image: url(https://i.ibb.co/f4V3srS/banner-bg.png);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    height: 843px;
+}
+
+.section-1 .nav {
+    float: left;
+    width: 529px;
+}
+
+.section-1 .nav ul {
+    float: left;
+}
+
+.section-1 .nav ul li {
+    display: block;
+    float: left;
+}
+
+.section-1 .nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 65px 34px 30px 0px;
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+}
+
+.section-1 .nav ul li a .arrow {
+    padding-left: 7px;
+}
+
+.section-1 .section1-3 .box {
+    width: 1109px;
+    color: #3b1d81;
+    background: #fff;
+    text-align: center;
+    box-shadow: 2px 4px 14px #55555540;
+    height: 138px;
+}
+
+.section-1 .section1-3 .box .part-1 {
+    float: left;
+    width: 446px;
+}
+
+.section-1 .section1-3 .box .border {
+    float: left;
+    border-right: 1px dashed #5a5a5a69;
+    height: 50px;
+    margin-top: 39px;
+}
+
+.section-1 .section1-3 .box .boxs {
+    float: left;
+    width: 662px;
+}
+
+.section-1 .section1-3 .box .boxs .box-2 {
+    float: left;
+    border-radius: 27px;
+    background-color: #ff007a;
+    box-shadow: 2px 2px 7px #ff007a;
+    box-sizing: border-box;
+    margin: 36px 25px;
+}
+
+.section-1 .section1-3 .box .boxs .box-2 a {
+    padding: 18px 35px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.section-1 .section1-3 .box .boxs .xx {
+    float: left;
+}
+
+.section-1 .section1-3 .box .boxs .yy {
+    float: left;
+    margin-top: 55px;
+    width: 182px;
+}
+
+.section-1 .section1-3 .box .boxs .yy a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #00299e;
+    text-decoration: none;
+}
+
+.section-1 .section1-3 .box .boxs .xx {
+    max-width: 100%;
+    padding-left: 88px;
+    margin-top: 11px;
+}
+
+.section-1 .section1-3 .box .part-1 ul {
+    float: left;
+    position: relative;
+    padding: 45px 0px 45px 45px;
+}
+
+.section-1 .section1-3 .box .part-1 ul li {
+    float: left;
+    width: 100px;
+}
+
+.section-1 .section1-3 .box .part-1 ul li h2 {
+    font-size: 28px;
+    font-weight: 900;
+    color: #3b1d82;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+
+.section-1 .section1-3 .box .part-1 ul li p {
+    color: #999999;
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 7px;
+}
+
+.section-1 .section1-3 .box .part-1 ul .last {
+    padding-right: 0px;
+}
+
+.section-1 .section1-3 .box ul .box-2 {
+    border-radius: 27px;
+    background-color: #ff007a;
+    box-shadow: 2px 2px 7px #ff007a;
+    box-sizing: border-box;
+}
+
+.section-1 .section1-3 .box ul li .xx {
+    max-width: 100%;
+    padding-left: 63px;
+}
+
+.sec3 {
+    padding-top: 70px;
+    text-align: center;
+}
+
+.sec3 .head p,
+.sec5 .head p,
+.sec7 .head p {
+    color: #5a5a5a;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+}
+
+.sec3 .box-3 p {
+    line-height: 1.5;
+    width: 259px;
+}
+
+.head .wave {
+    padding-top: 33px;
+}
+
+.sec3 .head h1,
+.sec5 .head h1,
+.sec7 .head h1 {
+    color: #3b1c84;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    padding-top: 19px;
+}
+
+.sec3 .box-3 {
+    padding: 80px 15px;
+    text-align: center;
+    width: 30%;
+    float: left;
+}
+
+.sec3 .inbox:hover {
+    background-color: #fff;
+    box-shadow: 4px 4px 12px #3333337a;
+}
+
+.sec3 .box-3 .inbox {
+    padding: 35px;
+}
+
+.sec3 .box-3 .inbox .icon {
+    height: 76px;
+    margin: 0 auto;
+}
+
+.sec3 .box-3 .inbox .icon h2 {
+    font-size: 24;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    color: #1c1c24;
+}
+
+.sec3 .box-3 .inbox h2 {
+    font-weight: 800;
+    font-size: 24px;
+    font-family: Ralwway;
+    color: #1c1c24;
+    padding-top: 17px;
+}
+
+.sec3 .box-3 p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5a5a5a;
+    padding-top: 20px;
+}
+
+.sec4 {
+    padding-top: 87px;
+}
+
+.sec4 .bg {
+    background-image: url(https://i.ibb.co/Tqt5xNf/funfact-bg-2.jpg);
+    height: 341px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec4 ul {
+    float: left;
+    padding-top: 30px;
+}
+
+.sec4 ul li {
+    float: left;
+    color: #fff;
+    width: 209px;
+    padding: 80px 0px 0px 100px;
+}
+
+.sec4 ul li p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    width: 126px;
+    padding-top: 15px;
+}
+
+.sec4 ul li .img {
+    padding-top: 10px
+}
+
+.sec4 ul li h1 {
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.sec5 {
+    text-align: center;
+    background-image: url(https://i.ibb.co/Kjz9t1q/dotted-pattern.jpg);
+    height: 1088px;
+    padding-top: 100px;
+}
+.sec5 .images {
+    padding-top: 80px;
+}
+
+.sec5 .image h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    color: #1c1c24;
+    padding-top: 21px;
+}
+.sec5 .images-2{
+    padding-top: 106px;
+}
+.sec5 .image {
+    float: left;
+    width: 255px;
+    padding-left: 25px;
+}
+
+.sec5 .image img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.sec5 .image img:hover {
+    opacity: 0.5;
+}
+
+.sec5 .image p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #5a5a5a;
+    margin-top: 10px;
+}
+
+.sec6 .left {
+    float: left;
+    width: 50%;
+    height: 450px;
+}
+
+.sec6 .left img {
+    width: 100%;
+    height: 100%;
+}
+
+.sec6 .right {
+    float: right;
+    width: 50%;
+}
+
+.sec6 .right img {
+    width: 100%;
+    height: 450px;
+}
+
+.sec6 .right .bg {
+    position: relative;
+}
+
+.sec6 .right .content {
+    color: #fff;
+}
+
+.sec6 .right .bg h2 {
+    font-size: 36px;
+    max-width: 300px;
+    position: absolute;
+    left: 80px;
+    bottom: 209px;
+    font-weight: 600;
+    font-family: Raleway;
+}
+
+.sec6 .right .bg p {
+    font-weight: 400;
+    max-width: 350px;
+    line-height: 1.5;
+    position: absolute;
+    left: 80px;
+    bottom: 96px;
+}
+
+.sec6 .right .bg h5 {
+    position: absolute;
+    left: 80px;
+    bottom: 341px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sec7 {
+    padding-top: 96px;
+}
+
+.sec7 .head {
+    text-align: center;
+    padding-bottom: 91px;
+}
+
+.sec7 .sec7-1 {
+    float: left;
+    width: 347px;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 10px 10px 22px #eee;
+}
+
+.sec7 .sec7-1 img {
+    max-width: 100%;
+}
+
+.sec7 .xx {
+    margin: 0px 30px;
+}
+
+.sec7 .sec7-1 .left {
+    float: left;
+    width: 100px;
+}
+
+.sec7 .sec7-1 .right {
+    float: left;
+    width: 150px;
+}
+
+.sec7 .sec7-1 span {
+    padding-top: 10px;
+    color: #919191;
+    font-weight: 400;
+    padding: 0px 5px;
+    font-size: 12px;
+}
+
+.sec7 .sec7-2 h2 {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 17px;
+}
+
+.sec7 .sec7-1 .sec7-2 p {
+    line-height: 1.5;
+    padding: 20px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5a5a5a;
+    padding-top: 40px;
+}
+
+.sec7 .sec7-1 .last a {
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.sec7 .sec7-1 .last a:hover {
+    color: #ff007a;
+}
+
+.sec7 .sec7-1 .last {
+    padding-top: 20px;
+}
+
+.sec7 .sec7-1 .sec7-2 {
+    padding: 28px;
+}
+
+.sec7 .sec7-1 .color {
+    color: #FF33E9;
+}
+
+.sec7 .sec7-1 p {
+    line-height: 1.5;
+    padding: 20px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5a5a5a;
+}
+
+.sec7 .sec7-1 h4 {
+    font-size: 20px;
+}
+
+.sec8 {
+    background-color: #1b1931;
+    color: #878791;
+    padding: 40px 0px 55px;
+    margin-top: 96px;
+}
+
+.sec8 .logo {
+    text-align: center;
+    margin: 0 auto;
+    width: 400px
+}
+
+.sec8 .logo ul li {
+    font-size: 16px;
+    border: 1px solid #878791;
+    border-radius: 40px;
+    height: 35px;
+    width: 35px;
+    margin-left: 30px;
+    text-decoration: none;
+    float: left;
+    line-height: 2.2;
+}
+
+.sec8 .logo li a {
+    color: #fff;
+}
+
+.sec8 .logo li:hover {
+    background-color: #ff007a;
+}
+
+.sec8 .text {
+    text-align: center;
+    padding-top: 35px;
+    margin: 0 auto;
+    width: 550px;
+}
+
+.sec8 .text ul li {
+    float: left;
+    width: 95px;
+}
+
+#none {
+    width: 118px;
+}
+
+.sec8 .text ul li a {
+    text-decoration: none;
+    color: #878791;
+    position: relative;
+}
+
+.sec8 .text ul li a:before {
+    position: absolute;
+    left: -24px;
+    top: 1px;
+    bottom: 0;
+    margin: auto;
+    content: '';
+    background-color: #5f5e6f;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.sec8 .text ul li a:hover {
+    color: #ff007a;
+}
+
+.sec8 .text ul .none {
+    width: 150px;
+}
+
+.none::before {
+    display: none;
+}
+
+.sec8 .last {
+    padding-top: 35px;
+    text-align: center;
+}
+
+.sec8 .last a {
+    text-decoration: none;
+    color: #878791;
+}

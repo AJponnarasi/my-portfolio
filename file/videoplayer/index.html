@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <!-- Mandatory -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Mandatory for responsiveness-->
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="css/reset.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <title>Video Player</title>
+   </head>
+   <body>
+         <div class="video_player">
+            <video src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" class="video" id="video"></video>
+            <div class="buttons"></div>
+            <div class="bar">
+               <input class="progress" type="range" min="0" max="100" value="0" id="progress">
+            </div>
+            <div class="duration">
+               <span id="curtime">00:00</span><span id="slash">/</span><span id="dur">00:00</span>
+            </div>
+            <div>
+               <button class="play"><i class="fa fa-play" aria-hidden="true" id="play"></i></button>
+            </div>
+            <div>
+               <i class="fa fa-volume-up vol " id="volume"></i>
+                  <input type="range" min="0" max="100" value="0" class="slider1" id="vol_slider">
+            </div>
+            <div>
+              <button class="backward"><i class="fa fa-backward" aria-hidden="true" id="backward"></i></button>
+           </div>
+           <div>
+              <button class="forward"><i class="fa fa-forward" aria-hidden="true" id="forward"></i></button>
+           </div>
+           <div>
+              <button class="full-screen"><i class="fa fa-arrows-alt" aria-hidden="true" id="full_screen"></i></button>
+           </div>
+           <div>
+             <button id="replay" class="replay"><i class="fa fa-repeat" aria-hidden="true"></i>
+    </button>
+           </div>
+         </div>
+
+      <script src="js/main.js"></script>
+   </body>
+</html>
